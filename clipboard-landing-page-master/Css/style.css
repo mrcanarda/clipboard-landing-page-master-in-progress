@@ -1,3 +1,10 @@
+/* 
+font-family: 'Bai Jamjuree', sans-serif;
+400 
+600 
+
+*/
+
 .header { 
     background-image: url("..//images/bg-header-desktop.png");
     background-size: cover;
@@ -9,3 +16,88 @@
     padding-top: 6rem;
 }
 
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+  }  
+
+  /* HEADER */
+
+.logo {
+    width: 6rem;
+    margin-bottom: 3.2rem;
+}
+
+.header-eins {
+  
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.header-parag {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2rem;
+    width: 30%;
+    line-height: 1.4;
+    margin-bottom: 3.2rem;
+}
+
+/* HEADER BUTTON */
+
+.button-list {
+    list-style: none;
+    margin-bottom: 6rem;
+}
+
+.button-link:link,
+.button-link:visited {
+  padding: 1rem 2.4rem;
+  text-decoration: none;
+  border-radius: 16px;
+  color: #fff;
+  background-color: hsl(171, 66%, 44%);
+}
+
+.button-link:hover,
+.button-link:active {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.button-link-zwei:link,
+.button-link-zwei:visited {
+  padding: 1rem 2.4rem;
+  text-decoration: none;
+  border-radius: 16px;
+  color: #fff;
+  background-color: hsl(233, 100%, 69%);
+}
+
+.button-link-zwei:hover,
+.button-link-zwei:active {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.header-zwei {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.header-parag-zwei {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2rem;
+    width: 34%;
+    line-height: 1.4;
+    margin-bottom: 3.2rem;
+}
+
+/* WIE KANN ICH UBER COMPUTER NUTZEN */ 
+
+.computer-img img {
+    width: 90%;
+}

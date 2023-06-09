@@ -16,13 +16,19 @@ html {
     /* scroll-behavior: smooth; */
   }
   
-  body {
-    font-family: "Rubik", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-  
-    /* Only works if there is nothing absolutely positioned in relation to body */
-    overflow-x: hidden;
-  }  
+.grid {
+  display: grid;
+  column-gap: 1.2rem;
+}
 
+.grid--2-cols {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4,1fr);
+}
