@@ -160,9 +160,18 @@ line-height: 2.2;
 /**** HOW I USE *******
 ***********************/
 
-.howiuse {
-display: flex;
 
+.howiuse {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  
 }
 
-
+.eins img {
+  width: 10%;
+  text-a
+}
